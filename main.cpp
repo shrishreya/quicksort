@@ -26,7 +26,11 @@ int main(int argc, char* argv[])
 	v[9]="Dublin";
 	v[10]="India";
 	
+<<<<<<< HEAD
 	//same line changing
+=======
+	//same line changes in git hub
+>>>>>>> origin/master
 
 	std::cout<<"v before qsort: ";
 	std::for_each(v.begin(), v.end(), print<std::string>);
