@@ -25,8 +25,7 @@ int main(int argc, char* argv[])
 	v[8]="Amsterdam";
 	v[9]="Dublin";
 	v[10]="India";
-	
-	//same line changing
+	//this is a modifiedpage
 
 	std::cout<<"v before qsort: ";
 	std::for_each(v.begin(), v.end(), print<std::string>);
