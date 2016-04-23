@@ -24,6 +24,8 @@ int main(int argc, char* argv[])
 	v[7]="Tallinn";
 	v[8]="Amsterdam";
 	v[9]="Dublin";
+	v[10]="India";
+	
 
 	std::cout<<"v before qsort: ";
 	std::for_each(v.begin(), v.end(), print<std::string>);
